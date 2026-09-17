@@ -7,8 +7,8 @@ import { UiIcon } from './UiIcon';
 
 const domains = [
   { name: 'Products', caption: 'Connected hardware, specified clearly.', detail: 'Switches, fans, e-Labels and power products.', href: '/products/', icon: 'grid' as const, number: '01' },
-  { name: 'Systems', caption: 'Intelligence with a purpose.', detail: 'Clear experiences and connected workflows.', href: '/about/', icon: 'layers' as const, number: '02' },
-  { name: 'Things', caption: 'From the edge to the enterprise.', detail: 'Embedded technology. Cloud. eFactor.', href: '/partnership/', icon: 'network' as const, number: '03' },
+  { name: 'Dude Softwares', caption: 'Eleven applications. One operating suite.', detail: 'ERP, HR, finance, projects, CRM and the rest of the connected software family.', href: '/software/', icon: 'layers' as const, number: '02' },
+  { name: 'About us', caption: 'Intelligence with a purpose.', detail: 'Meet Karat Infinity and the principles behind the connected whole.', href: '/about/', icon: 'people' as const, number: '03' },
 ];
 
 export function Constellation() {
@@ -37,12 +37,24 @@ export function Constellation() {
         <path d="M450 321h12m-6-6v12M147 373h10m-5-5v10" className="map-tick"/>
       </svg>
       <div className="map-hub"><span className="infinity-mark">∞</span><span>Karat Infinity</span><small>THE CONNECTED WHOLE</small></div>
-      {domains.map((item, i) => <button key={item.name} className={`map-node node-${i} ${active === i ? 'selected' : ''}`} aria-pressed={active === i} onClick={() => setActive(i)} style={{ '--node-index': i } as CSSProperties}>
-        <span className="node-icon"><UiIcon name={item.icon}/></span><span className="node-label">{item.name}</span><span className="node-index">/{item.number}</span>
-      </button>)}
+      {domains.map((item, i) => (
+        <Link
+          key={item.name}
+          href={item.href}
+          className={`map-node node-${i} ${active === i ? 'selected' : ''}`}
+          aria-label={`${item.name}, ${item.number}`}
+          onMouseEnter={() => setActive(i)}
+          onFocus={() => setActive(i)}
+          style={{ '--node-index': i } as CSSProperties}
+        >
+          <span className="node-icon"><UiIcon name={item.icon}/></span>
+          <span className="node-label">{item.name}</span>
+          <span className="node-index">/{item.number}</span>
+        </Link>
+      ))}
       <span className="map-note note-one">Everything<br/>in relationship.</span>
       <span className="map-note note-two">Designed to<br/>work together.</span>
     </div>
-    <div className="constellation-caption" aria-live="polite"><div key={domain.name} className="caption-transition"><span className="micro-label">{domain.name} / {domain.number}</span><h2>{domain.caption}</h2><p>{domain.detail}</p></div><Link href={domain.href} className="round-link" aria-label={`Explore ${domain.name.toLowerCase()}`}><UiIcon name="arrowUp"/></Link></div>
+    <div className="constellation-caption" aria-live="polite"><div key={domain.name} className="caption-transition"><span className="micro-label">{domain.name} / {domain.number}</span><h2>{domain.caption}</h2><p>{domain.detail}</p></div><Link href={domain.href} className="round-link" aria-label={`Explore ${domain.name}`}><UiIcon name="arrowUp"/></Link></div>
   </div>;
 }
