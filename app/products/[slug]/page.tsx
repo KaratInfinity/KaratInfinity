@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { ArrowRight } from '@/components/Icons';
 import { ProductCard } from '@/components/ProductCard';
 import { getHardwareProduct, hardwareProducts } from '@/lib/products';
+import { pageMeta } from '@/lib/site';
 
 type ProductPageProps = { params: { slug: string } };
 
@@ -15,10 +16,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: ProductPageProps): Metadata {
   const product = getHardwareProduct(params.slug);
   if (!product) return { title: 'Product' };
-  return {
-    title: product.title,
-    description: product.description,
-  };
+  return pageMeta(product.title, product.description, `/products/${product.slug}/`);
 }
 
 export default function HardwareProductPage({ params }: ProductPageProps) {
@@ -63,11 +61,11 @@ export default function HardwareProductPage({ params }: ProductPageProps) {
           </div>
           <div>
             <p className="max-w-3xl text-xl leading-9 text-muted">{product.overview}</p>
-            <div className="mt-12 grid gap-4 sm:grid-cols-2">
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {product.highlights.map((highlight, index) => (
-                <div key={highlight} className="info-card flex min-h-36 flex-col justify-between">
+                <div key={highlight} className="info-card flex flex-col justify-between">
                   <span className="feature-index">0{index + 1}</span>
-                  <h3 className="mt-8 text-lg font-semibold tracking-[-0.02em]">{highlight}</h3>
+                  <h3 className="mt-4 text-lg font-semibold tracking-[-0.02em]">{highlight}</h3>
                 </div>
               ))}
             </div>
@@ -85,7 +83,7 @@ export default function HardwareProductPage({ params }: ProductPageProps) {
               </div>
               <Link href="/products/" className="text-link">All products</Link>
             </div>
-            <div className="catalog-grid mt-10">
+            <div className="catalog-grid mt-14">
               {related.map((item) => <ProductCard key={item.slug} product={item} />)}
             </div>
             <div className="mt-12 flex flex-wrap items-center justify-between gap-6 border-t theme-border pt-8">

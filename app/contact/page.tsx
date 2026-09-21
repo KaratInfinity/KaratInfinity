@@ -1,13 +1,14 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowUpRight, MailIcon, MapPinIcon, PhoneIcon } from '@/components/Icons';
 import { karatInfinityAddress, karatInfinityMapsUrl } from '@/lib/company';
 import { efactorPortalUrl } from '@/lib/software';
+import { pageMeta } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Contact',
-  description: 'Contact Karat Infinity for business enquiries or reach eFactor for platform and software access support.',
-};
+export const metadata = pageMeta(
+  'Contact us',
+  'Contact Karat Infinity for business enquiries or reach eFactor for platform and software access support.',
+  '/contact/',
+);
 
 export default function ContactPage() {
   return (

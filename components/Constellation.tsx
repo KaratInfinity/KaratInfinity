@@ -6,9 +6,8 @@ import Link from 'next/link';
 import { UiIcon } from './UiIcon';
 
 const domains = [
-  { name: 'Products', caption: 'Connected hardware, specified clearly.', detail: 'Switches, fans, e-Labels and power products.', href: '/products/', icon: 'grid' as const, number: '01' },
-  { name: 'Dude Softwares', caption: 'Eleven applications. One operating suite.', detail: 'ERP, HR, finance, projects, CRM and the rest of the connected software family.', href: '/software/', icon: 'layers' as const, number: '02' },
-  { name: 'About us', caption: 'Intelligence with a purpose.', detail: 'Meet Karat Infinity and the principles behind the connected whole.', href: '/about/', icon: 'people' as const, number: '03' },
+  { name: 'Dude Softwares', caption: 'Eleven applications. One operating suite.', detail: 'ERP, HR, finance, projects, CRM and the rest of the connected software family.', href: '/software/', icon: 'layers' as const, number: '01' },
+  { name: 'Partnership', caption: 'From the edge to the enterprise.', detail: 'Karat Infinity, eFactor and Dude Softwares — connected from software to operations.', href: '/partnership/', icon: 'network' as const, number: '02' },
 ];
 
 export function Constellation() {
@@ -31,8 +30,7 @@ export function Constellation() {
         <circle className="orbit-inner" cx="270" cy="224" r="133" />
         <path className={'map-path '+(active === 0 ? 'active' : '')} d="M270 224C210 224 170 126 130 110"/>
         <path className={'map-path '+(active === 1 ? 'active' : '')} d="M270 224C330 224 365 160 422 153"/>
-        <path className={'map-path '+(active === 2 ? 'active' : '')} d="M270 224C290 275 250 310 272 364"/>
-        <path className="map-trace" d={['M270 224C210 224 170 126 130 110','M270 224C330 224 365 160 422 153','M270 224C290 275 250 310 272 364'][active]}/>
+        <path className="map-trace" d={['M270 224C210 224 170 126 130 110','M270 224C330 224 365 160 422 153'][active]}/>
         <circle cx="80" cy="224" r="4" className="map-dot"/><circle cx="376" cy="66" r="4" className="map-dot"/>
         <path d="M450 321h12m-6-6v12M147 373h10m-5-5v10" className="map-tick"/>
       </svg>

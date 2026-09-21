@@ -1,10 +1,11 @@
-import type { Metadata } from 'next';
 import { AboutView } from '@/components/AboutView';
+import { pageMeta } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'About us',
-  description: 'Meet Karat Infinity — a technology company building intelligent digital systems, enterprise software and connected products.',
-};
+export const metadata = pageMeta(
+  'About us',
+  'Meet Karat Infinity — a technology company building intelligent digital systems, enterprise software and connected products.',
+  '/about/',
+);
 
 export default function AboutPage() {
   return <AboutView />;

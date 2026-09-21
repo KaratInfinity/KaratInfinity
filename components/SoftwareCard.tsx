@@ -13,9 +13,9 @@ export function SoftwareCard({ product }: { product: SoftwareProduct }) {
         <span className="product-category">{product.category}</span>
       </div>
       <div className="module-card-copy">
-        <p className="text-sm font-semibold text-muted">{product.shortTitle}</p>
-        <h3 className="mt-3 text-[1.65rem] font-semibold leading-[1.2] tracking-[-0.035em] text-foreground">{product.title}</h3>
-        <p className="mt-5 text-base leading-7 text-muted">{product.description}</p>
+        <p className="text-xs font-semibold text-muted">{product.shortTitle}</p>
+        <h3 className="mt-1.5 text-[1.15rem] font-semibold leading-snug tracking-[-0.03em] text-foreground">{product.title}</h3>
+        <p className="mt-2 text-[13px] leading-5 text-muted">{product.description}</p>
       </div>
       <div className="module-card-actions flex flex-wrap items-center gap-3">
         <Link href={`/software/${product.slug}/`} className="card-link">

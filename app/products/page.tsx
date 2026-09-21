@@ -1,13 +1,14 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight } from '@/components/Icons';
 import { ProductCatalog } from '@/components/ProductCatalog';
-import { hardwareProducts, productCategories } from '@/lib/products';
+import { hardwareProducts } from '@/lib/products';
+import { pageMeta } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Products',
-  description: 'Explore the Karat Infinity product catalogue — smart switches, touch panels, IoT fans, e-Labels, pump controllers and connected power.',
-};
+export const metadata = pageMeta(
+  'Products',
+  'Explore the Karat Infinity product catalogue — smart switches, touch panels, IoT fans, e-Labels, pump controllers and connected power.',
+  '/products/',
+);
 
 export default function ProductsPage() {
   return (
@@ -25,35 +26,16 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="section-block">
+      <section className="surface-section pb-20 pt-10" id="product-index">
         <div className="shell">
-          <div className="product-index" aria-label="Product families">
-            {productCategories.map((category, index) => {
-              const count = hardwareProducts.filter((product) => product.category === category).length;
-              return (
-                <div key={category} className="product-index-item">
-                  <span className="product-number">{String(index + 1).padStart(2, '0')}</span>
-                  <span>
-                    <strong>{category}</strong>
-                    <small>{count} products</small>
-                  </span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      <section className="section-block surface-section" id="product-index">
-        <div className="shell">
-          <div className="flex flex-wrap items-end justify-between gap-5 border-b theme-border pb-6">
+          <div className="flex flex-wrap items-end justify-between gap-5 border-b theme-border pb-5">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.17em] text-muted">Complete catalogue</p>
-              <h2 className="mt-3 text-3xl font-semibold tracking-[-0.045em] md:text-4xl">{hardwareProducts.length} connected products</h2>
+              <h2 className="mt-2 text-3xl font-semibold tracking-[-0.045em] md:text-4xl">{hardwareProducts.length} connected products</h2>
             </div>
             <p className="max-w-lg text-sm leading-6 text-muted">The Karat Infinity hardware range, separate from the Dude Softwares application suite.</p>
           </div>
-          <div className="mt-8"><ProductCatalog /></div>
+          <div className="mt-6"><ProductCatalog /></div>
         </div>
       </section>
     </main>

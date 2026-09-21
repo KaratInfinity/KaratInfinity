@@ -23,30 +23,23 @@ export function Walkthrough() {
 const stories = [
   { tag: 'PEOPLE & WORK', title: 'Good work starts with connected people.', description: 'Bring HR records, project ownership, team collaboration, and supporting documents into a shared operating context.', products: ['HRMS', 'Projects', 'DMS'], href: '/software/project-management/', label: 'Connect your team', icon: 'people' as const },
   { tag: 'MONEY & OPERATIONS', title: 'Every handoff. A little more clarity.', description: 'Connect purchasing requests, stock movement, and finance records with clear responsibilities and approval context.', products: ['Procurement', 'Inventory', 'Finance'], href: '/software/procurement/', label: 'Connect your operations', icon: 'layers' as const },
-  { tag: 'PRODUCTS & CUSTOMERS', title: 'Beyond the screen. Into the real world.', description: 'Pair connected hardware — switches, fans and e-Labels — with the software teams use every day.', products: ['Switches', 'Fans', 'e-Label'], href: '/products/', label: 'Connect your products', icon: 'box' as const },
 ];
 
 export function StoryCarousel() {
   const [index, setIndex] = useState(0);
   const story = stories[index];
   return <section className="story-section"><div className="shell">
-    <div className="section-overline" data-reveal><span>03 / CONNECTED IN PRACTICE</span><Link href="/use-cases/">All use cases <UiIcon name="arrowUp"/></Link></div>
+    <div className="section-overline" data-reveal><span>02 / CONNECTED IN PRACTICE</span><Link href="/use-cases/">All use cases <UiIcon name="arrowUp"/></Link></div>
     <div className="story-layout" data-reveal>
-      <div className="story-selector"><span className="micro-label">START WITH YOUR WORLD</span>{stories.map((item, i) => <button key={item.tag} onClick={() => setIndex(i)} aria-pressed={index === i} className={index === i ? 'selected' : ''}><span>0{i + 1}</span>{item.tag}<UiIcon name="arrow"/></button>)}<div className="carousel-controls"><button className="icon-button" aria-label="Previous scenario" onClick={() => setIndex((index + 2) % 3)}><UiIcon name="arrow" className="flipped"/></button><span className="mono">0{index + 1} / 03</span><button className="icon-button" aria-label="Next scenario" onClick={() => setIndex((index + 1) % 3)}><UiIcon name="arrow"/></button></div></div>
+      <div className="story-selector"><span className="micro-label">START WITH YOUR WORLD</span>{stories.map((item, i) => <button key={item.tag} onClick={() => setIndex(i)} aria-pressed={index === i} className={index === i ? 'selected' : ''}><span>0{i + 1}</span>{item.tag}<UiIcon name="arrow"/></button>)}<div className="carousel-controls"><button className="icon-button" aria-label="Previous scenario" onClick={() => setIndex((index + stories.length - 1) % stories.length)}><UiIcon name="arrow" className="flipped"/></button><span className="mono">0{index + 1} / 0{stories.length}</span><button className="icon-button" aria-label="Next scenario" onClick={() => setIndex((index + 1) % stories.length)}><UiIcon name="arrow"/></button></div></div>
       <div className="story-copy" aria-live="polite"><div key={index} className="caption-transition"><span className="story-icon"><UiIcon name={story.icon}/></span><h2>{story.title}</h2><p>{story.description}</p><div className="story-products">{story.products.map((p, i) => <span key={p}>{i > 0 && <i aria-hidden="true">+</i>}{p}</span>)}</div><Link href={story.href} className="text-link">{story.label} <UiIcon name="arrowUp"/></Link></div></div>
     </div>
   </div></section>;
 }
 
 export function EcosystemTabs() {
-  const [index, setIndex] = useState(0);
-  const tabs = [
-    { label: 'The digital world', title: 'Every team. In its element.', copy: 'Karat Infinity software brings your people, finance, projects, customers, and operations into one discoverable enterprise suite.', word: 'Karat', sub: 'INFINITY SOFTWARES', number: '11', metric: 'Focused applications', href: '/software/' },
-    { label: 'The physical world', title: 'Every product. More possibility.', copy: 'The hardware catalogue covers smart switches, IoT fans, e-Labels and connected power — the products that live in the room, not only in the browser.', word: 'Karat', sub: 'INFINITY PRODUCTS', number: '42', metric: 'Connected products', href: '/products/' },
-  ];
-  const tab = tabs[index];
   return <section className="ecosystem-section shell">
-    <div className="ecosystem-intro" data-reveal><span className="section-number">05 / SHARED AMBITION</span><h2>Two worlds.<br/><em>Better together.</em></h2><div className="feature-tabs" role="tablist" aria-label="Ecosystem capabilities">{tabs.map((item, i) => <button key={item.label} id={`eco-tab-${i}`} role="tab" aria-selected={index === i} aria-controls="eco-panel" tabIndex={index === i ? 0 : -1} onClick={() => setIndex(i)} onKeyDown={e => { if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) { e.preventDefault(); const next = e.key === 'Home' ? 0 : e.key === 'End' ? 1 : 1 - index; setIndex(next); document.getElementById(`eco-tab-${next}`)?.focus(); } }}>{item.label}<UiIcon name="arrowUp"/></button>)}</div></div>
-    <div id="eco-panel" className="ecosystem-panel" role="tabpanel" aria-labelledby={`eco-tab-${index}`} tabIndex={0} data-reveal><div key={index} className="caption-transition"><div className="ecosystem-panel-top"><span className="partner-wordmark">{tab.word}<small>{tab.sub}</small></span><span className="partner-value">{tab.number}</span></div><h3>{tab.title}</h3><p>{tab.copy}</p><div className="ecosystem-panel-bottom"><span className="micro-label">{tab.metric}</span><Link href={tab.href} className="round-link" aria-label={`Explore ${tab.word}`}><UiIcon name="arrowUp"/></Link></div></div></div>
+    <div className="ecosystem-intro" data-reveal><span className="section-number">04 / SHARED AMBITION</span><h2>The software suite.<br/><em>Ready to work together.</em></h2><Link href="/software/" className="text-link">Explore the applications <UiIcon name="arrowUp"/></Link></div>
+    <div className="ecosystem-panel" data-reveal><div className="caption-transition"><div className="ecosystem-panel-top"><span className="partner-wordmark">Karat<small>INFINITY SOFTWARES</small></span><span className="partner-value">11</span></div><h3>Every team. In its element.</h3><p>Karat Infinity software brings your people, finance, projects, customers, and operations into one discoverable enterprise suite.</p><div className="ecosystem-panel-bottom"><span className="micro-label">Focused applications</span><Link href="/software/" className="round-link" aria-label="Explore Karat software"><UiIcon name="arrowUp"/></Link></div></div></div>
   </section>;
 }

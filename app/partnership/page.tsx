@@ -1,13 +1,14 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight } from '@/components/Icons';
 import { SectionIntro } from '@/components/SectionIntro';
 import { efactorPortalUrl } from '@/lib/software';
+import { pageMeta } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'eFactor Partnership',
-  description: 'How Karat Infinity, eFactor and Dude Softwares connect intelligent products with enterprise operations.',
-};
+export const metadata = pageMeta(
+  'Partnership',
+  'How Karat Infinity, eFactor and Dude Softwares connect intelligent products with enterprise operations.',
+  '/partnership/',
+);
 
 export default function PartnershipPage() {
   return (

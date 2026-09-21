@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Constellation } from '@/components/Constellation';
-import { ProductShowcase } from '@/components/ProductShowcase';
 import { Walkthrough, StoryCarousel, EcosystemTabs } from '@/components/HomeInteractions';
 import { ResourceCards } from '@/components/ResourceCards';
 import { CallToAction } from '@/components/CallToAction';
@@ -12,7 +11,7 @@ export default function Home() {
       <div className="hero-editorial">
         <div className="hero-eyebrow hero-enter"><span className="label-rule"/> INDEPENDENT THINKING. CONNECTED TECHNOLOGY.</div>
         <h1 className="hero-headline"><span className="hero-line"><span>Big ideas.</span></span><span className="hero-line"><span>Infinite</span></span><span className="hero-line"><em>connections.</em></span></h1>
-        <p className="hero-intro hero-enter">We bring software, intelligent systems, and connected products into one thoughtful ecosystem.</p>
+        <p className="hero-intro hero-enter">We bring software, intelligent systems, and connected workflows into one thoughtful ecosystem.</p>
         <div className="hero-actions hero-enter"><Link href="/products/" className="primary-button">Explore products <UiIcon name="arrowUp"/></Link><Walkthrough/></div>
         <div className="hero-footnote hero-enter"><span className="tiny-mark">KI /</span><p>Built for the way you work.<br/><strong>Ready for where you’re going.</strong></p></div>
       </div>
@@ -32,19 +31,13 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="suite-section shell" id="products">
-      <div className="suite-title-row" data-reveal><div><span className="section-number">02 / PRODUCTS</span><h2>Connected hardware.<br/><em>Specified as products.</em></h2></div><div className="suite-intro"><p>Smart switches, touch panels, IoT fans, e-Labels and power.<br/>The Karat Infinity catalogue, distinct from the software suite.</p><Link href="/products/" className="text-link">View all 42 products <UiIcon name="arrowUp"/></Link></div></div>
-      <div className="mt-10" data-reveal><ProductShowcase/></div>
-      <div className="suite-caption"><span>KARAT INFINITY PRODUCTS</span><span>Hardware first. Software stays in Softwares.</span></div>
-    </section>
-
     <StoryCarousel/>
 
-    <section className="point-of-view shell" data-reveal><span className="section-number">04 / OUR POINT OF VIEW</span><div><h2>A collection of tools<br/>isn’t the same as<br/><em>a connected whole.</em></h2><div className="point-bottom"><p>We build around the relationships between things. Clear ownership. Shared context. Thoughtful boundaries. So your next step doesn’t mean starting over.</p><Link href="/about/" className="round-link" aria-label="Read about us"><UiIcon name="arrowUp"/></Link></div></div></section>
+    <section className="point-of-view shell" data-reveal><span className="section-number">03 / OUR POINT OF VIEW</span><div><h2>A collection of tools<br/>isn’t the same as<br/><em>a connected whole.</em></h2><div className="point-bottom"><p>We build around the relationships between things. Clear ownership. Shared context. Thoughtful boundaries. So your next step doesn’t mean starting over.</p><Link href="/about/" className="round-link" aria-label="Read about us"><UiIcon name="arrowUp"/></Link></div></div></section>
 
     <EcosystemTabs/>
 
-    <section className="section-block resources-section"><div className="shell"><div className="section-heading-row" data-reveal><div><span className="section-number">06 / A LITTLE PERSPECTIVE</span><h2>Ideas worth<br/><em>connecting.</em></h2></div><Link href="/resources/" className="text-link">The resource journal <UiIcon name="arrowUp"/></Link></div><ResourceCards/></div></section>
+    <section className="section-block resources-section"><div className="shell"><div className="section-heading-row" data-reveal><div><span className="section-number">05 / A LITTLE PERSPECTIVE</span><h2>Ideas worth<br/><em>connecting.</em></h2></div><Link href="/resources/" className="text-link">The resource journal <UiIcon name="arrowUp"/></Link></div><ResourceCards/></div></section>
     <CallToAction/>
   </main>;
 }

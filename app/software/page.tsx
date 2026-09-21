@@ -1,13 +1,14 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowUpRight } from '@/components/Icons';
 import { SoftwareCatalog } from '@/components/SoftwareCatalog';
 import { efactorPortalUrl, softwareProducts } from '@/lib/software';
+import { pageMeta } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Softwares',
-  description: 'Explore the Dude Softwares suite — eleven connected business applications available through the eFactor portal.',
-};
+export const metadata = pageMeta(
+  'Softwares',
+  'Explore the Dude Softwares suite — eleven connected business applications available through the eFactor portal.',
+  '/software/',
+);
 
 export default function SoftwarePage() {
   return (
@@ -25,16 +26,16 @@ export default function SoftwarePage() {
         </div>
       </section>
 
-      <section className="section-block surface-section">
+      <section className="surface-section pb-20 pt-10">
         <div className="shell">
-          <div className="flex flex-wrap items-end justify-between gap-5 border-b theme-border pb-6">
+          <div className="flex flex-wrap items-end justify-between gap-5 border-b theme-border pb-5">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.17em] text-muted">Complete catalogue</p>
-              <h2 className="mt-3 text-3xl font-semibold tracking-[-0.045em] md:text-4xl">{softwareProducts.length} connected applications</h2>
+              <h2 className="mt-2 text-3xl font-semibold tracking-[-0.045em] md:text-4xl">{softwareProducts.length} connected applications</h2>
             </div>
             <p className="max-w-lg text-sm leading-6 text-muted">Product availability and permissions are determined by the signed-in eFactor account.</p>
           </div>
-          <div className="mt-8"><SoftwareCatalog /></div>
+          <div className="mt-6"><SoftwareCatalog /></div>
         </div>
       </section>
     </main>

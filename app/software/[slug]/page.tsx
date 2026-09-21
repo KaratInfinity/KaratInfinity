@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, ArrowUpRight } from '@/components/Icons';
 import { efactorPortalUrl, getSoftwareProduct, softwareProducts } from '@/lib/software';
+import { pageMeta } from '@/lib/site';
 
 type ProductPageProps = { params: { slug: string } };
 
@@ -14,10 +15,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: ProductPageProps): Metadata {
   const product = getSoftwareProduct(params.slug);
   if (!product) return { title: 'Software' };
-  return {
-    title: product.title,
-    description: product.description,
-  };
+  return pageMeta(product.title, product.description, `/software/${product.slug}/`);
 }
 
 export default function ProductPage({ params }: ProductPageProps) {
@@ -58,11 +56,11 @@ export default function ProductPage({ params }: ProductPageProps) {
           </div>
           <div>
             <p className="max-w-3xl text-xl leading-9 text-muted">{product.overview}</p>
-            <div className="mt-12 grid gap-4 sm:grid-cols-2">
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {product.capabilities.map((capability, index) => (
-                <div key={capability} className="info-card module-feature flex min-h-36 flex-col justify-between" data-reveal data-delay={(index % 2) * 90}>
+                <div key={capability} className="info-card module-feature flex flex-col justify-between" data-reveal data-delay={(index % 2) * 90}>
                   <span className="feature-index">0{index + 1}</span>
-                  <h3 className="mt-8 text-lg font-semibold tracking-[-0.02em]">{capability}</h3>
+                  <h3 className="mt-4 text-lg font-semibold tracking-[-0.02em]">{capability}</h3>
                 </div>
               ))}
             </div>

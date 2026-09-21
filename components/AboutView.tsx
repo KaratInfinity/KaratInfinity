@@ -33,10 +33,10 @@ export function AboutView() {
           />
           <div className="mt-14 grid gap-4 md:grid-cols-2 lg:mt-20">
             {disciplines.map((item) => (
-              <article key={item.number} className="info-card min-h-64">
+              <article key={item.number} className="info-card">
                 <span className="product-number">{item.number}</span>
-                <h2 className="mt-12 text-2xl font-semibold tracking-[-0.035em]">{item.title}</h2>
-                <p className="mt-4 max-w-lg text-base leading-7 text-muted">{item.text}</p>
+                <h2 className="mt-4 text-2xl font-semibold tracking-[-0.035em]">{item.title}</h2>
+                <p className="mt-3 max-w-lg text-base leading-7 text-muted">{item.text}</p>
               </article>
             ))}
           </div>
