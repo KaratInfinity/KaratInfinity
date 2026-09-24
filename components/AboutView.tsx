@@ -4,10 +4,10 @@ import { SectionIntro } from '@/components/SectionIntro';
 import { karatInfinityAddress, karatInfinityMapsUrl } from '@/lib/company';
 
 const disciplines = [
-  { number: '01', title: 'Enterprise experiences', text: 'Clear interfaces and connected workflows for the operational work businesses repeat every day.' },
-  { number: '02', title: 'Intelligent systems', text: 'Applied automation, AI and data used where they create useful, understandable outcomes.' },
-  { number: '03', title: 'Connected products', text: 'Digital platforms, cloud services and embedded technology designed as one product journey.' },
-  { number: '04', title: 'Ecosystem engineering', text: 'Architecture that connects products and partners without collapsing them into a fragile monolith.' },
+  { number: '01', title: 'The idea, 2022', text: 'Karat Infinity began as an idea in 2022: one partner that could take a product from concept through engineering, manufacturing, software, and launch.' },
+  { number: '02', title: 'Established 17 January 2024', text: 'The company was officially established on 17 January 2024, and has since been building the ecosystem behind connected products.' },
+  { number: '03', title: 'What we build', text: 'IoT-enabled products, private-label manufacturing, automation, asset intelligence, DUDE software, product identity, and e-labels.' },
+  { number: '04', title: 'Who we work with', text: 'Existing businesses, entrepreneurs, manufacturers, and retailers who want to make a product smart or launch a connected brand.' },
 ];
 
 export function AboutView() {
@@ -17,8 +17,8 @@ export function AboutView() {
         <div className="shell relative z-10">
           <p className="breadcrumb"><Link href="/">Home</Link><span>/</span><span>About us</span></p>
           <div className="mt-14 grid gap-10 lg:grid-cols-[1.25fr_.75fr] lg:items-end">
-            <h1 className="page-title">Engineering the <span className="gradient-text">connected whole.</span></h1>
-            <p className="page-description lg:justify-self-end">Karat Infinity is a technology company focused on the digital systems businesses depend on today and the connected capabilities they will need next.</p>
+            <h1 className="page-title">From an idea in 2022 to a company on <span className="gradient-text">17 January 2024.</span></h1>
+            <p className="page-description lg:justify-self-end">Karat Infinity helps businesses, brands, and entrepreneurs develop, manufacture, and launch connected products under their own brand.</p>
           </div>
         </div>
       </section>
@@ -27,9 +27,9 @@ export function AboutView() {
         <div className="shell">
           <SectionIntro
             number="01"
-            eyebrow="Who we are"
-            title="Built where business, software and connected products meet."
-            description="Our role is to turn complex operational needs into a coherent system: thoughtful experiences on the surface, dependable software underneath and a clear path into connected intelligence."
+            eyebrow="Our story"
+            title="One ecosystem, from concept to market."
+            description="Launching a smart product takes more than a module. It takes engineering, electronics, firmware, software, manufacturing, quality, and support after launch. Karat Infinity brings those capabilities together."
           />
           <div className="mt-14 grid gap-4 md:grid-cols-2 lg:mt-20">
             {disciplines.map((item) => (
@@ -46,15 +46,15 @@ export function AboutView() {
       <section className="section-block surface-section" id="principles">
         <div className="shell grid gap-14 lg:grid-cols-[.78fr_1.22fr] lg:gap-24">
           <div>
-            <p className="eyebrow-pill">Our point of view</p>
-            <h2 className="section-title mt-7">Useful before impressive.</h2>
+            <p className="eyebrow-pill">How we work</p>
+            <h2 className="section-title mt-7">Concept to market.</h2>
           </div>
           <div className="border-t theme-border">
             {[
-              ['Start with the operating truth', 'Understand the people, information and decisions already moving through the business.'],
-              ['Design the system, not the screen', 'Shape the workflow, ownership and data foundation before polishing the interface.'],
-              ['Connect with clear boundaries', 'Let products share context while each remains understandable, maintainable and secure.'],
-              ['Make evolution possible', 'Build foundations that can accept new teams, rules and technologies without constant reinvention.'],
+              ['Concept', 'Start with the product idea, the market, and the job the connected product needs to do.'],
+              ['Engineering', 'Shape the electronics, firmware, sensors, and software that make the product intelligent.'],
+              ['Manufacturing', 'Move from prototype and pilot quantities toward production under your own brand.'],
+              ['Market', 'Support launch with software, product identity, and the data that keeps the product useful after it ships.'],
             ].map(([title, text], index) => (
               <div key={title} className="feature-row">
                 <span className="feature-index">0{index + 1}</span>
@@ -70,8 +70,8 @@ export function AboutView() {
         <div className="shell grid gap-10 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
           <div>
             <p className="eyebrow-pill">Where we work</p>
-            <h2 className="section-title mt-7">Based in Secunderabad, built for connected operations.</h2>
-            <p className="page-description">Visit the Karat Infinity office, or start a conversation about the software, products and systems your organisation needs next.</p>
+            <h2 className="section-title mt-7">Based in Secunderabad, building connected products.</h2>
+            <p className="page-description">Visit the Karat Infinity office, or start a conversation about a product, a brand, or a demo.</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a href={karatInfinityMapsUrl} target="_blank" rel="noreferrer" className="primary-button">Open in maps <ArrowRight className="h-4 w-4" /></a>
               <Link href="/contact/" className="secondary-button">Contact us</Link>
@@ -91,10 +91,10 @@ export function AboutView() {
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
               <p className="text-xs font-extrabold uppercase tracking-[0.18em]">The wider ecosystem</p>
-              <h2 className="mt-5 max-w-4xl text-4xl font-semibold leading-[0.98] tracking-[-0.055em] md:text-6xl">See how Karat Infinity works with eFactor and Dude Softwares.</h2>
+              <h2 className="mt-5 max-w-4xl text-4xl font-semibold leading-[0.98] tracking-[-0.055em] md:text-6xl">See the products that carry this ecosystem into the real world.</h2>
             </div>
-            <Link href="/partnership/" className="primary-button">
-              Explore the partnership <ArrowRight className="h-4 w-4" />
+            <Link href="/products/" className="primary-button">
+              Explore products <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
         </div>

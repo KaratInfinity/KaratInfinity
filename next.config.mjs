@@ -1,10 +1,14 @@
+const DEV_PHASE = 'phase-development-server';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
 };
 
-export default nextConfig;
+export default (phase) => ({
+  ...nextConfig,
+  ...(phase === DEV_PHASE ? {} : { output: 'export' }),
+});

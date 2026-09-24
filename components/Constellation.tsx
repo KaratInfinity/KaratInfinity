@@ -6,8 +6,8 @@ import Link from 'next/link';
 import { UiIcon } from './UiIcon';
 
 const domains = [
-  { name: 'Dude Softwares', caption: 'Eleven applications. One operating suite.', detail: 'ERP, HR, finance, projects, CRM and the rest of the connected software family.', href: '/software/', icon: 'layers' as const, number: '01' },
-  { name: 'Partnership', caption: 'From the edge to the enterprise.', detail: 'Karat Infinity, eFactor and Dude Softwares — connected from software to operations.', href: '/partnership/', icon: 'network' as const, number: '02' },
+  { name: 'Products', caption: 'From an idea to a smart product.', detail: 'Switches, panels, fans, pumps, e-labels, and the connected products built around them.', href: '/products/', icon: 'layers' as const, number: '01' },
+  { name: 'DUDE', caption: 'Serious software. Simple to use.', detail: 'Modular applications for quality, assets, operations, and the life of a connected product.', href: '/software/', icon: 'network' as const, number: '02' },
 ];
 
 export function Constellation() {

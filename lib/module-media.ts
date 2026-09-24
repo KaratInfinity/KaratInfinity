@@ -91,6 +91,15 @@ export const moduleMedia: Record<string, ModuleMediaAsset> = {
     "videoSource": "https://www.pexels.com/video/men-warehouse-work-loading-4291725/",
     "videoDescription": "Stock and material handling"
   },
+  "energy-power": {
+    "image": "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "video": "https://videos.pexels.com/video-files/4291725/4291725-hd_1280_720_50fps.mp4",
+    "imageSource": "https://www.pexels.com/photo/257736/",
+    "imageCredit": "Pexels",
+    "description": "Electrical wiring",
+    "videoSource": "https://www.pexels.com/video/men-warehouse-work-loading-4291725/",
+    "videoDescription": "Stock and material handling"
+  },
   "e-label-studio": {
     "image": "https://images.pexels.com/photos/7289717/pexels-photo-7289717.jpeg?auto=compress&cs=tinysrgb&w=1400",
     "video": "https://assets.mixkit.co/videos/4872/4872-720.mp4",

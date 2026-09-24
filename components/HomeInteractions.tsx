@@ -9,9 +9,9 @@ export function Walkthrough() {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(0);
   const steps = [
-    ['Find your starting point.', 'Browse the software suite and choose the application that fits your team’s work.', '/software/', 'Explore the softwares'],
-    ['One way in. A world of possibilities.', 'Use your eFactor account to access the applications assigned to your company and role.', '/partnership/', 'Explore the ecosystem'],
-    ['Make the connections.', 'Start with the domain you need, then connect people, records, approvals, and workflows as your business grows.', '/use-cases/', 'Explore use cases'],
+    ['Find your starting point.', 'Browse the Karat Infinity product range and open the details for the product you want to explore.', '/products/', 'Explore products'],
+    ['See the company behind it.', 'The idea began in 2022. Karat Infinity was officially established on 17 January 2024.', '/about/', 'About us'],
+    ['Ask for a demo.', 'Tell us which product you want to see. A demo request opens the contact page.', '/contact/', 'Contact us'],
   ];
   return <><button className="walkthrough-trigger" onClick={() => { setStep(0); setOpen(true); }}><span className="play-disc"><UiIcon name="play"/></span>Take a closer look</button>
     <Dialog open={open} onClose={() => setOpen(false)} title="A world that works together.">
@@ -21,15 +21,15 @@ export function Walkthrough() {
 }
 
 const stories = [
-  { tag: 'PEOPLE & WORK', title: 'Good work starts with connected people.', description: 'Bring HR records, project ownership, team collaboration, and supporting documents into a shared operating context.', products: ['HRMS', 'Projects', 'DMS'], href: '/software/project-management/', label: 'Connect your team', icon: 'people' as const },
-  { tag: 'MONEY & OPERATIONS', title: 'Every handoff. A little more clarity.', description: 'Connect purchasing requests, stock movement, and finance records with clear responsibilities and approval context.', products: ['Procurement', 'Inventory', 'Finance'], href: '/software/procurement/', label: 'Connect your operations', icon: 'layers' as const },
+  { tag: 'EXISTING BUSINESSES', title: 'Make your existing products smart.', description: 'Add connectivity, monitoring, and a digital identity to the products you already make, without building a new technology stack from scratch.', products: ['IoT', 'Identity', 'Software'], href: '/products/', label: 'Explore products', icon: 'people' as const },
+  { tag: 'ENTREPRENEURS', title: 'Build your own smart product brand.', description: 'Bring a product idea. Karat Infinity can help take it from engineering and manufacturing through software and launch.', products: ['Idea', 'Build', 'Market'], href: '/products/', label: 'Explore products', icon: 'layers' as const },
 ];
 
 export function StoryCarousel() {
   const [index, setIndex] = useState(0);
   const story = stories[index];
   return <section className="story-section"><div className="shell">
-    <div className="section-overline" data-reveal><span>02 / CONNECTED IN PRACTICE</span><Link href="/use-cases/">All use cases <UiIcon name="arrowUp"/></Link></div>
+    <div className="section-overline" data-reveal><span>02 / WHO IT IS FOR</span><Link href="/products/">All products <UiIcon name="arrowUp"/></Link></div>
     <div className="story-layout" data-reveal>
       <div className="story-selector"><span className="micro-label">START WITH YOUR WORLD</span>{stories.map((item, i) => <button key={item.tag} onClick={() => setIndex(i)} aria-pressed={index === i} className={index === i ? 'selected' : ''}><span>0{i + 1}</span>{item.tag}<UiIcon name="arrow"/></button>)}<div className="carousel-controls"><button className="icon-button" aria-label="Previous scenario" onClick={() => setIndex((index + stories.length - 1) % stories.length)}><UiIcon name="arrow" className="flipped"/></button><span className="mono">0{index + 1} / 0{stories.length}</span><button className="icon-button" aria-label="Next scenario" onClick={() => setIndex((index + 1) % stories.length)}><UiIcon name="arrow"/></button></div></div>
       <div className="story-copy" aria-live="polite"><div key={index} className="caption-transition"><span className="story-icon"><UiIcon name={story.icon}/></span><h2>{story.title}</h2><p>{story.description}</p><div className="story-products">{story.products.map((p, i) => <span key={p}>{i > 0 && <i aria-hidden="true">+</i>}{p}</span>)}</div><Link href={story.href} className="text-link">{story.label} <UiIcon name="arrowUp"/></Link></div></div>
@@ -39,7 +39,7 @@ export function StoryCarousel() {
 
 export function EcosystemTabs() {
   return <section className="ecosystem-section shell">
-    <div className="ecosystem-intro" data-reveal><span className="section-number">04 / SHARED AMBITION</span><h2>The software suite.<br/><em>Ready to work together.</em></h2><Link href="/software/" className="text-link">Explore the applications <UiIcon name="arrowUp"/></Link></div>
-    <div className="ecosystem-panel" data-reveal><div className="caption-transition"><div className="ecosystem-panel-top"><span className="partner-wordmark">Karat<small>INFINITY SOFTWARES</small></span><span className="partner-value">11</span></div><h3>Every team. In its element.</h3><p>Karat Infinity software brings your people, finance, projects, customers, and operations into one discoverable enterprise suite.</p><div className="ecosystem-panel-bottom"><span className="micro-label">Focused applications</span><Link href="/software/" className="round-link" aria-label="Explore Karat software"><UiIcon name="arrowUp"/></Link></div></div></div>
+    <div className="ecosystem-intro" data-reveal><span className="section-number">04 / FROM PRODUCTS TO INTELLIGENCE</span><h2>Meet DUDE.<br/><em>Serious software.</em></h2><Link href="/software/" className="text-link">Explore the applications <UiIcon name="arrowUp"/></Link></div>
+    <div className="ecosystem-panel" data-reveal><div className="caption-transition"><div className="ecosystem-panel-top"><span className="partner-wordmark">DUDE<small>KARAT INFINITY SOFTWARE</small></span><span className="partner-value">11</span></div><h3>Use what you need. Connect as you grow.</h3><p>DUDE is the modular software family for quality, assets, maintenance, products, operations, and the data a connected product creates.</p><div className="ecosystem-panel-bottom"><span className="micro-label">Focused applications</span><Link href="/software/" className="round-link" aria-label="Explore DUDE software"><UiIcon name="arrowUp"/></Link></div></div></div>
   </section>;
 }

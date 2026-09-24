@@ -3,7 +3,7 @@ import { pageMeta } from '@/lib/site';
 
 export const metadata = pageMeta(
   'About us',
-  'Meet Karat Infinity — a technology company building intelligent digital systems, enterprise software and connected products.',
+  'Karat Infinity began as an idea in 2022 and was officially established on 17 January 2024.',
   '/company/',
 );
 

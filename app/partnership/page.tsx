@@ -82,7 +82,7 @@ export default function PartnershipPage() {
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link href="/products/" className="secondary-button">Explore all products <ArrowRight className="h-4 w-4" /></Link>
-            <a href={efactorPortalUrl} target="_blank" rel="noreferrer" className="primary-button">Access Dude Softwares <ArrowUpRight className="h-4 w-4" /></a>
+            <Link href="/products/dude/" className="primary-button">View DUDE <ArrowRight className="h-4 w-4" /></Link>
           </div>
         </div>
       </section>

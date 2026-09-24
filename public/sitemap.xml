@@ -2,409 +2,859 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://karatinfinity.com/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://karatinfinity.com/products/ioe/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/touch-controls/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-appliances/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/pump-controllers/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/power-distribution/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/labels/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/jewellery/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/retail/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/automation/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://karatinfinity.com/about/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://karatinfinity.com/careers/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://karatinfinity.com/company/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/partnership/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/use-cases/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/resources/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/resources/faq/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/pricing/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/contact/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/request-demo/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/enterprise-resource-planning/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/enterprise-resource-planning/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/finance-accounting/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/finance-accounting/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/human-resource-management/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/human-resource-management/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/project-management/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/project-management/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/sales-crm/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/sales-crm/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/inventory-management/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/inventory-management/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/procurement/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/procurement/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/document-management/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/document-management/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/manufacturing/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/manufacturing/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/asset-management/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/dude/asset-management/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/software/e-label-studio/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://karatinfinity.com/products/lpf-1-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <loc>https://karatinfinity.com/products/dude/e-label-studio/</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/lpf-1-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/lpf-2-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-1-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-2-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-5-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-1-switch-1-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-hd-switch-25a/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-2-switch-1-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/nexa-4-switch-1-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/hd-touch-vpro/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/2-touch-vpro/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/fan-dimmer-touch-vpro/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/4-touch-rpro/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-2-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-4-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-fan-switch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-4-switch-1-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-8-switch-1-socket/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-4-switch-1-fan-1-socket/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-8-switch-1-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-16-switch-2-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/magnetic-glass-touch-12-switch-1-fan-2-socket/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/rockair-5blade-bldc-iot-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/atom-3blade-bldc-iot-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/glostar-3blade-bldc-iot-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/sportage-blade-bldc-iot-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/arval-3blade-bldc-iot-fan/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/iot-multi-cooker/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/1phase-pump-controller-iot/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/3phase-pump-controller-iot/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/3phase-pump-controller-gsm/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/bldc-ceiling-fan-iot/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/bldc-ceiling-fan-iot-ii/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/bldc-ceiling-fan-led-wooden/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/jewellery-elabel-1inch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/jewellery-elabel-1-5inch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/jewellery-elabel-2-1inch/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/elabel-display-2-1inch-shops/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/elabel-display-2-9inch-shops/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/elabel-display-4-1inch-shops/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/products/smart-plug-iot/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/busbar-system/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/lpf-1-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://karatinfinity.com/products/busbar-system/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/lpf-2-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-1-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-2-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-5-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-1-switch-1-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-hd-switch-25a/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-2-switch-1-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-switch-modules/nexa-4-switch-1-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/touch-controls/hd-touch-vpro/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/touch-controls/2-touch-vpro/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/touch-controls/fan-dimmer-touch-vpro/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/touch-controls/4-touch-rpro/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-2-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-4-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-fan-switch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-4-switch-1-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-8-switch-1-socket/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-4-switch-1-fan-1-socket/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-8-switch-1-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-16-switch-2-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/glass-touch-panels/magnetic-glass-touch-12-switch-1-fan-2-socket/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/rockair-5blade-bldc-iot-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/atom-3blade-bldc-iot-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/glostar-3blade-bldc-iot-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/sportage-blade-bldc-iot-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/arval-3blade-bldc-iot-fan/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/bldc-ceiling-fan-iot/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/bldc-ceiling-fan-iot-ii/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-fans/bldc-ceiling-fan-led-wooden/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/smart-appliances/iot-multi-cooker/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/pump-controllers/1phase-pump-controller-iot/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/pump-controllers/3phase-pump-controller-iot/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/pump-controllers/3phase-pump-controller-gsm/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/power-distribution/smart-plug-iot/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/ioe/power-distribution/busbar-system/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/labels/taglink/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/labels/production-tag/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/jewellery-elabel-1inch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/jewellery-elabel-1-5inch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/jewellery-elabel-2-1inch/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/elabel-display-2-1inch-shops/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/elabel-display-2-9inch-shops/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/1-verse/e-labels/elabel-display-4-1inch-shops/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/automation/industrial-machine-automation/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/automation/asset-facility-automation/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/automation/energy-power-automation/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://karatinfinity.com/products/automation/process-automation/</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/resources/getting-started/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/resources/connected-operations/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://karatinfinity.com/resources/edge-to-enterprise/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

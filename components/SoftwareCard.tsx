@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { ModuleMedia } from './ModuleMedia';
 import type { SoftwareProduct } from '@/lib/software';
-import { efactorPortalUrl } from '@/lib/software';
-import { ArrowRight, ArrowUpRight } from './Icons';
+import { demoHref } from '@/lib/catalog';
+import { ArrowRight } from './Icons';
 
 export function SoftwareCard({ product }: { product: SoftwareProduct }) {
   return (
@@ -18,12 +18,12 @@ export function SoftwareCard({ product }: { product: SoftwareProduct }) {
         <p className="mt-2 text-[13px] leading-5 text-muted">{product.description}</p>
       </div>
       <div className="module-card-actions flex flex-wrap items-center gap-3">
-        <Link href={`/software/${product.slug}/`} className="card-link">
+        <Link href={`/products/dude/${product.slug}/`} className="card-link">
           Learn more <ArrowRight className="h-4 w-4" />
         </Link>
-        <a href={efactorPortalUrl} target="_blank" rel="noreferrer" className="card-link card-link-muted">
-          Access <ArrowUpRight className="h-4 w-4" />
-        </a>
+        <Link href={demoHref('dude', product.slug)} className="card-link card-link-muted">
+          Request demo <ArrowRight className="h-4 w-4" />
+        </Link>
       </div>
     </article>
   );

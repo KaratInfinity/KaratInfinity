@@ -41,6 +41,14 @@ export function MailIcon({ className = '' }: IconProps) {
   );
 }
 
+export function MessageIcon({ className = '' }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M6 16.5 4.5 20l3.6-1.4A8.2 8.2 0 1 0 6 16.5Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export function PhoneIcon({ className = '' }: IconProps) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden="true">

@@ -5,21 +5,17 @@ export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://karatinfini
 export const siteName = 'Karat Infinity';
 
 export const siteDescription =
-  'Karat Infinity builds intelligent digital systems, connected hardware, and the Dude Softwares enterprise suite with eFactor.';
+  'Karat Infinity turns an idea into a smart product — connected hardware, DUDE software, and the ecosystem to manufacture and launch it.';
 
 export const siteEmail = 'hello@karatinfinity.com';
 export const sitePhone = '+91-6305983246';
 
 export const siteNav = [
   { name: 'Home', path: '/' },
-  { name: 'Softwares', path: '/software/' },
+  { name: 'About Us', path: '/about/' },
   { name: 'Products', path: '/products/' },
-  { name: 'About us', path: '/about/' },
-  { name: 'Partnership', path: '/partnership/' },
-  { name: 'Use cases', path: '/use-cases/' },
-  { name: 'Resources', path: '/resources/' },
-  { name: 'Contact us', path: '/contact/' },
-  { name: 'Request a demo', path: '/request-demo/' },
+  { name: 'Careers', path: '/careers/' },
+  { name: 'Contact', path: '/contact/' },
 ] as const;
 
 export function absoluteUrl(path = '/') {
@@ -93,7 +89,7 @@ export function siteJsonLd() {
           {
             '@type': 'ContactPoint',
             contactType: 'customer support',
-            email: 'efactorioe@gmail.com',
+            email: siteEmail,
             telephone: sitePhone,
             areaServed: 'IN',
             availableLanguage: ['English', 'Hindi'],
@@ -141,11 +137,11 @@ export function siteJsonLd() {
         about: { '@id': organizationId },
         primaryImageOfPage: logoUrl,
         significantLink: [
-          absoluteUrl('/software/'),
-          absoluteUrl('/products/'),
           absoluteUrl('/about/'),
+          absoluteUrl('/products/'),
+          absoluteUrl('/careers/'),
           absoluteUrl('/contact/'),
-          absoluteUrl('/request-demo/'),
+          absoluteUrl('/software/'),
         ],
       },
       {

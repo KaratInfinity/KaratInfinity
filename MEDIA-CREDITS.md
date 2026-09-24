@@ -18,6 +18,7 @@
 | document-management | [Business documents being reviewed](https://www.pexels.com/photo/documents-on-a-table-7731348/) | Mikhail Nilov |
 | manufacturing | [Metal welding with sparks](https://www.pexels.com/photo/close-up-of-industrial-welding-sparks-37517098/) | Dogan şimşek |
 | asset-management | [Industrial machine wheel](https://www.pexels.com/photo/a-machine-in-a-workshop-27084606/) | HONG SON |
+| energy-power | [Electrical wiring](https://www.pexels.com/photo/257736/) | Pexels |
 | e-label-studio | [Product package QR code scanning](https://www.pexels.com/photo/person-taking-photo-of-the-qr-code-7289717/) | Kampus Production |
 
 ## Video mapping
@@ -36,6 +37,7 @@ The five selected Mixkit source pages identify these clips as available under th
 | document-management | [Business document signing](https://mixkit.co/free-stock-video/signing-a-contract-241/) |
 | manufacturing | [Stock and material handling](https://www.pexels.com/video/men-warehouse-work-loading-4291725/) |
 | asset-management | [Stock and material handling](https://www.pexels.com/video/men-warehouse-work-loading-4291725/) |
+| energy-power | [Stock and material handling](https://www.pexels.com/video/men-warehouse-work-loading-4291725/) |
 | e-label-studio | [Colleagues working at a computer](https://mixkit.co/free-stock-video/two-coworkers-talking-and-laughing-4872/) |
 
 ## Hosting

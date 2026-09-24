@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { ArrowUpRight } from '@/components/Icons';
+import { ArrowRight } from '@/components/Icons';
 import { SoftwareCatalog } from '@/components/SoftwareCatalog';
-import { efactorPortalUrl, softwareProducts } from '@/lib/software';
+import { softwareProducts } from '@/lib/software';
 import { pageMeta } from '@/lib/site';
 
 export const metadata = pageMeta(
@@ -19,8 +19,8 @@ export default function SoftwarePage() {
           <div className="mt-14 grid gap-10 lg:grid-cols-[1.2fr_.8fr] lg:items-end">
             <h1 className="page-title">The connected <span className="gradient-text">software suite.</span></h1>
             <div className="lg:justify-self-end">
-              <p className="page-description">Search and filter every Dude Softwares application, then sign in to eFactor to access the ones available to your account.</p>
-              <a href={efactorPortalUrl} target="_blank" rel="noreferrer" className="primary-button mt-7">Open software portal <ArrowUpRight className="h-4 w-4" /></a>
+              <p className="page-description">Search and filter every DUDE application, then open a product or request a demo.</p>
+              <Link href="/request-demo/?family=dude" className="primary-button mt-7">Request a demo <ArrowRight className="h-4 w-4" /></Link>
             </div>
           </div>
         </div>

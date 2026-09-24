@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import { ModuleMedia } from '@/components/ModuleMedia';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowRight, ArrowUpRight } from '@/components/Icons';
-import { efactorPortalUrl, getSoftwareProduct, softwareProducts } from '@/lib/software';
+import { ArrowRight } from '@/components/Icons';
+import { demoHref } from '@/lib/catalog';
+import { getSoftwareProduct, softwareProducts } from '@/lib/software';
 import { pageMeta } from '@/lib/site';
 
 type ProductPageProps = { params: { slug: string } };
@@ -41,7 +42,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             </div>
             <div className="lg:justify-self-end">
               <p className="page-description">{product.description}</p>
-              <a href={efactorPortalUrl} target="_blank" rel="noreferrer" className="primary-button mt-7">Access on eFactor <ArrowUpRight className="h-4 w-4" /></a>
+              <Link href={demoHref('dude', product.slug)} className="primary-button mt-7">Request a demo <ArrowRight className="h-4 w-4" /></Link>
             </div>
           </div>
         </div>

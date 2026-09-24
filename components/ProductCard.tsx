@@ -17,9 +17,14 @@ export function ProductCard({ product }: { product: HardwareProduct }) {
         <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-muted">{product.series}</p>
         <h3 className="mt-1.5 text-[1.05rem] font-semibold leading-snug tracking-[-0.03em]">{product.title}</h3>
         <p className="mt-2 text-[13px] leading-5 text-muted">{product.description}</p>
-        <Link href={`/products/${product.slug}/`} className="card-link mt-3">
-          View product <ArrowRight className="h-4 w-4" />
-        </Link>
+        <div className="mt-3 flex flex-wrap items-center gap-x-4">
+          <Link href={`/products/${product.slug}/`} className="card-link">
+            View product <ArrowRight className="h-4 w-4" />
+          </Link>
+          <Link href="/contact/" className="card-link">
+            Demo <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
       </div>
     </article>
   );
